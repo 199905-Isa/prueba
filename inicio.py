@@ -1,8 +1,7 @@
 # Diccionario que almacena los usuarios y contraseñas
 usuarios = {
     "usuario1": "contraseña1",
-    "usuario2": "contraseña2",
-    "usuario3": "contraseña3"
+
 }
 
 def inicio_sesion():
@@ -20,10 +19,8 @@ def inicio_sesion():
         if usuarios[usuario] == contraseña:
             print("Inicio de sesión exitoso. ¡Bienvenido, {}!".format(usuario))
         else:
-            print("Contraseña incorrecta. Por favor, inténtelo de nuevo.")
+            print("Contraseña incorrecta.")
     else:
         print("Usuario no encontrado. Por favor, verifique su nombre de usuario.")
 
-
-# Llamar a la función de inicio de sesión
 inicio_sesion()
