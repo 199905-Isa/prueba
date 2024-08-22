@@ -1,8 +1,10 @@
 # Diccionario que almacena los usuarios y contraseñas
 usuarios = {
     "usuario1": "contraseña1",
-    "usuario2": "contraseña2",
-    "usuario3": "contraseña3"
+    "ana2": "1234",
+    "marcos3": "1234",
+    "jose4": "1234",
+
 }
 
 def inicio_sesion():
@@ -25,5 +27,5 @@ def inicio_sesion():
         print("Usuario no encontrado. Por favor, verifique su nombre de usuario.")
 
 
-# Llamar a la función de inicio de sesión
+
 inicio_sesion()
